@@ -1,0 +1,133 @@
+#body {
+    background-color: #f3f5ff6c;
+  }
+  
+  #header {
+    background-color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header h1{
+    color: #000000;
+  }
+  
+  #header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+
+ .Bouton {
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+  }
+
+  #footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #carre1 {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  #bloc {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 100px;
+    padding: 20px;
+    place-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #carre2 {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  
+  #carre3 {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    grid-column: 3/3;
+    grid-row: 1/2;
+  }
+
+  .rond {
+    border-radius: 50%;
+  }
+
+  #carre1 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #carre2 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #carre3 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 20px;
+    place-items: center;
+    margin-bottom: 20px;
+  }
+
+  .png {
+    width: 400px;
+    height: 400px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  #blok {
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #title {
+    color: beige;
+    text-align: center;
+  }
+  
